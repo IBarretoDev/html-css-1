@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Este é o <a href="https://www.youtube.com/" target="_blank" rel="nofollow">Link do youtube</a></p> <!--O rel "nofollow" é indicado para links externos que você não deseja que o mecanismo de busca perpetue, que não tenha o seu aval, como uma propaganda paga, por exemplo-->
+    <p>Este é o link do <a href="https://www.youtube.com/channel/UCBsXp4u4dcV_ERlfstjrLHA">meu canal no YouTube.</a></p> <!--Para usar links para envelopar a parte do texto que deseja que seja clicável com a tag "a" e colocar o link dentro do href=""-->
+    <p>Este é o link do <a href="https://www.youtube.com/channel/UCBsXp4u4dcV_ERlfstjrLHA" target="_blank" rel="external">meu canal no YouTube </a>abrindo em uma aba externa.</p> <!--Utilizando o target="_blank" e o real = "external" o link abrirá em uma nova aba-->
+    <h2>Usando links internos</h2>
+    <p>Aqui é a página 01, caso deseje você pode acessar a <a href="pag002.html" rel="next">Segunda página</a></p> <!--Para linkar para outras páginas basta fazer a tag "a" desde que o arquivo esteja na mesma pasta-->
+    <!--O rel="next" dá um valor semântico para esta navegação, isso melhorará nos mecanismos de busca do google-->
+    <p>Aqui você pode <a href="exemplo/pag003.html" target="_self" rel="next">Ir para a página 03</a></p> <!--Você pode informar para o mecanismo de busca do google para não abrir uma nova aba com target="_self"-->  
+    
+    <!--Para ir para uma página que esteja em outra pasta, basta descrever o caminho/aqrquivo ou utilizar o atalho CTRL+ESPAÇO-->
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="book/Boleto_3077234.pdf" download="Boleto_3077234" >Baixar book</a></li>
+    </ul>
+</body>
+</html>

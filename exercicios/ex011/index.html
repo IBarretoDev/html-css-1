@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Um teste para ver a imagem se adaptando</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena-300.png" type="image/png"> <!--Para colocar uma imagem que se adapta, basta ter a imagem padrão (com a tag img), acima dela ter um source (modifica de min-width para max-width) e caso vá necessitando, ir adicionando outros tamanhos de imagens sempre acima.-->
+        <source media="(max-width: 1050px)" srcset="imagens/media-700.png" type="image/png"> <!--A ordem de tamnhos deve ser obedecida se não o código não funcionará.-->
+        <img src="imagens/grande-1000.png" alt="Foto Grande">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Escutando áudio</p>
+    <audio src="midia/audio.mp3" controls></audio> <!--Para adicionar um áudio basta abrir a tag "audio", selecionar o áudio e após isso adicionar o comando "controls"-->
+    <!--Compatível com arquivos MP3, WAV e OGG-->
+</body>
+</html>

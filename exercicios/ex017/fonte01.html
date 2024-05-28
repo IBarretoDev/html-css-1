@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas: cm, mm, in (polegada), px (pixel), pt (ponto), pc(paica)
+
+            Medidas Relativas: em (medida relativa ao tamanho atual da fonte), ex (medida relativa a altura x de uma fonte), rem (tipo o em, mas é relativo a fonte que está configurada no body), vw (largura da viewport), vh (altura da viewport), % (porcentagem)
+
+            16px geralmente é igual a 1 em.
+
+            a w3c indica usar ou px ou em.
+            */
+            font-size: 1em;
+
+            /* Shorthand font
+            Para não ficar descrevendo o padrão da fonte como por exemplo:
+            font-family: (família da fonte)
+            font-weight: (peso da fonte) (lighter, normal, bold, bolder)
+            font-size: (tamanho da fonte)
+            font-style: (itálico ou normal)
+            text-decoration: underline (para sublinhado)
+
+            Você pode usar o shorthand "font" no seguinte padrão:
+            font: italic bolder 3em Arial
+            
+            Seguindo a seguinte sequência: font-style -> font-weight -> font-size -> font-family
+            */
+        }
+        h1, h2 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum voluptate illum ut officiis obcaecati placeat porro reprehenderit est, nesciunt vero. Aperiam, ullam quae repudiandae eum fuga aliquam odio maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, soluta! Voluptas, quam? Voluptates ad quo, a cum officiis atque aut rem enim deserunt id aperiam quas quis labore quos sunt!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus provident repellat veniam tempore cumque, totam inventore aut in quas perferendis ullam nostrum accusamus fugiat rem cum dolorum dolores culpa eos.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates deleniti reiciendis molestias repudiandae atque optio dolorem, dolor quasi dolorum corrupti quos voluptas repellat distinctio, enim maxime fugiat veritatis minima expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nam corporis repellendus, deleniti ducimus consequuntur voluptatem veritatis sunt reprehenderit ipsam aliquid, totam quasi aliquam dicta quidem rem! Sed, expedita quis.</p>
+</body>
+</html>

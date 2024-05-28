@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* 
+    Tudo em HTML que é "ID" em CSS se torna "#"
+    Tudo em HTML que é "CLASS" em CSS se torna "."
+*/
+
+body {
+    background-color: #EDDEA4;
+}
+
+h1 {
+    color: #F7A072;
+}
+
+h1#principal {
+    background-color: #F7A072;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: #36382E;
+}
+
+.basico {
+    color: #135805;
+}
+
+.intermediario {
+    color: #E6AF2E;
+}
+
+.avancado {
+    color: #6B0504;
+}
